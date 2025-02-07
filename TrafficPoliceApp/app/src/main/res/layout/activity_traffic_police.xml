@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background ImageView for Fullscreen -->
+
+    <!-- App Logo at the Top-Left Corner -->
+
+    <ImageView
+        android:id="@+id/imgBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="Background Image"
+        android:scaleType="fitXY"
+        android:src="@drawable/background1" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
+        android:elevation="5dp"/>
+
+    <!-- Bordered Text Box for Status -->
+    <TextView
+        android:id="@+id/txtPoliceStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="503dp"
+        android:layout_marginBottom="175dp"
+        android:background="@drawable/status_box"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Status: Waiting for alert"
+        android:textColor="#FF000000"
+        android:textSize="18sp" />
+
+</RelativeLayout>

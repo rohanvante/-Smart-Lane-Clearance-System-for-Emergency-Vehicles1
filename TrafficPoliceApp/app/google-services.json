@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "478750508050",
+    "firebase_url": "https://abdul-1f6d1-default-rtdb.firebaseio.com",
+    "project_id": "abdul-1f6d1",
+    "storage_bucket": "abdul-1f6d1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478750508050:android:dc70ea1576e9f7b39e84cb",
+        "android_client_info": {
+          "package_name": "com.example.ambulanceapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmCqdUdzJ45levtoCs5hdA87B9A4XzJuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478750508050:android:4814d10d439711be9e84cb",
+        "android_client_info": {
+          "package_name": "com.example.trafficpoliceapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmCqdUdzJ45levtoCs5hdA87B9A4XzJuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478750508050:android:fc7aefe74c7567da9e84cb",
+        "android_client_info": {
+          "package_name": "com.example.vehicleapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmCqdUdzJ45levtoCs5hdA87B9A4XzJuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
